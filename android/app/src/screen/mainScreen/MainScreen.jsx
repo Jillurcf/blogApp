@@ -23,7 +23,7 @@ const Tab = createMaterialTopTabNavigator();
 
 const Main = () => {
   return (
-    <View style={{flex: 1}}>
+    <View style={{flex: 1, paddingHorizontal: width * 0.03, marginTop: height * 0.004}}>
         <StatusBar barStyle="dark-content" />
      <View style={styles.header}>
   {/* Header part start */}

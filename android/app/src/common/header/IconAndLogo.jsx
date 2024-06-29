@@ -7,9 +7,9 @@ const IconAndLogo = () => {
     const imageUrl = require('../../assets/images/blogAppLogo.svg');
   return (
     <View>
-      <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
+      <View style={{flexDirection: 'row', justifyContent: 'space-between', alignItems: "center"}}>
        <Logo width={100} height={100} />    
-      <SearchIcon width={50} height={50} />
+      <SearchIcon width={35} height={35} />
       </View>
       
     </View>
